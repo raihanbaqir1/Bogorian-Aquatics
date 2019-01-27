@@ -18,6 +18,51 @@
                     <h1>Bogorian Aquatics</h1>
             </div>
             </div>
+            <section id="box">
+                    <h1>Fish Order Form</h1>
+                    <hr>
+                    <form action="submit.html" method="POST">
+                        <section id="event">
+                            <label for="event">Event : <label>
+                            <input type="text" list="eventList" id="event" name="event" required>
+                        
+                            <datalist id="eventList">
+                                <option value="Museum Geologi"></option>
+                                <option value="Museum Nasional"></option>
+                                <option value="Museum Macan"></option>
+                                <option value="Museum Fatahillah"></option>
+                                <option value="Other"></option>  
+                            </datalist>
+                        </section>
+                        <br>
+                        <section>
+                            <label for="name">Nama : </label>
+                            <input type="text" name="name" id="name" required>
+                        </section>
+                        <br>
+                        <section>
+                            <label for="email">E-Mail : </label>
+                            <input type="text" name="email" id="email" required>
+                        </section>
+                        <br>
+                        <section>
+                            <label for="ticket"> Jumlah tiket	: </label>
+                            <input id="ticket" name="ticket" type="number" step="1" required>
+                        </section>
+                        <br>
+                        <section>
+                            <label for="payment">Cara pembayaran : </label>
+                            <select id="payment" name="payment" required>
+                                <option value="pizza">kartu kredit</option>
+                                <option value="curry">transfer</option>
+                            </select>
+                        </section>
+                        <br>
+                    <section>
+                            <input class="btn" type="submit" value="Send">
+                        </section>
+                    </form>
+                </section>
         
     </body>
 </html>

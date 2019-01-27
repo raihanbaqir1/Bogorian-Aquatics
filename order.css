@@ -1,0 +1,39 @@
+body {
+    margin: o auto;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgba(108, 120, 226, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    top: 0;
+}
+.navigation {
+    margin: 10px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+.navigation li {
+    display: inline-block;
+    width: 120px;
+    margin: 5px;
+}
+.navigation a {
+    color: whitesmoke;
+}
+
+a li:hover {
+	background-color: rgba(133, 133, 133, 0.7);
+}
+
+a li {
+    background-color: blue;
+    padding: 5px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+}

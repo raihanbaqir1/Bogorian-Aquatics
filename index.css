@@ -1,0 +1,182 @@
+body {
+    margin: o auto;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgba(108, 120, 226, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    top: 0;
+}
+.navigation {
+    margin: 10px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+.navigation li {
+    display: inline-block;
+    width: 120px;
+    margin: 5px;
+}
+.navigation a {
+    color: whitesmoke;
+}
+
+a li:hover {
+	background-color: rgba(133, 133, 133, 0.7);
+}
+
+a li {
+    background-color: blue;
+    padding: 5px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+}
+  /* Banner */
+  
+  #banner {
+    position: relative;
+    height: 500px;
+    padding: 0 10%;
+    background: url("https://c1.staticflickr.com/5/4329/35864825862_736a7c4872_b.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  #banner:before { 
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(108, 120, 226, 0.5);
+  }
+  
+  #banner * {
+    position: relative; 
+  }
+
+  #banner h1 {
+    padding-top: 280px;
+    padding-bottom:0px;
+    font-size: 80px;
+    color: white;
+	
+  }
+
+  
+#banner p {
+    color: white;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+/*konten 1*/
+
+.konten1 {
+    background-color: whitesmoke;
+}
+
+.konten1 a {
+    color: black;
+}
+
+.ikan1 {
+    width: 57%;
+   /* margin-right: 2%;*/
+    float: left;
+}
+
+.ikan1 img {
+    position: relative;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    margin: 5% auto;
+}
+
+.definisi1 {
+    margin-top: 5%;
+    width: 42%;
+    float: left;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.button {
+    background-color: rgb(133, 133, 133);
+    padding: 5px 20px;
+    width: fit-content;
+    border-radius: 15px;
+    display: inline;
+    margin-right: 25px;
+}
+
+.button:hover {
+	background-color: rgba(133, 133, 133, 0.7);
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    clear:both;
+}
+/*konten 2*/
+
+.konten2 {
+    background-color: whitesmoke;
+}
+
+.konten2 a {
+    color: black;
+}
+
+.ikan2 {
+    width: 57%;
+   /* margin-right: 2%;*/
+    float: left;
+}
+
+.ikan2 img {
+    position: relative;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    margin: 5% auto;
+}
+
+.definisi2 {
+    margin-top: 5%;
+    width: 42%;
+    float: left;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.button {
+    background-color: rgb(133, 133, 133);
+    padding: 5px 20px;
+    width: fit-content;
+    border-radius: 15px;
+    display: inline;
+    margin-right: 25px;
+}
+
+.button:hover {
+	background-color: rgba(133, 133, 133, 0.7);
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    clear:both;
+}
